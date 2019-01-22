@@ -26,3 +26,4 @@ void PrintTitle(char[], const char[], const char[],
 void PrintCopyright(char[], const char[], const char[],
                 const char[], boolean color);
 /*----------------------------------------------------------------------------*/
+
