@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
   const boolean blnColor = FALSE;
   const char strAppName[] = "bin2dec";
   const char strAppYear[] = "2015-2019";
-  const char strAppDescription[] = "Binary to Decimal Conversion";
+  const char strAppDescription[] = "Binary to Decimal Convertor";
   const char strVersion[] = "4.0";
   const char strLicense[] = "GPLv3+";
   const char strCopyright[] = "e-job@protonmail.com";
@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     printf("%s", chrArrBuff);
     PrintCopyright(chrArrBuff, strAppYear, strCopyright, strLicense, blnColor);
     printf("%s", chrArrBuff);
-    printf("\033[0mEnter a binary number(use only 0 and 1): \033[0;32m");
+    printf("\033[0mEnter a binary number(use only 0 and 1): \033[1;32m");
     if(scanf("%s", chrArrBuff) < 0) {
       printf("\033[0;31mYou didn't enter a valid binary number.\n\033[0m");
       return -1;
