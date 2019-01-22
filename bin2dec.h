@@ -14,7 +14,7 @@
 #define C_TITLE "\033[0;37m"  /* Title: Yellow                                */
 #define C_INFO "\033[1;37m"   /* Information of Title: Bold Yellow or Brown   */
 /*----------------------------------------------------------------------------*/
-typedef unsigned int ulong;
+typedef unsigned long ulong;
 typedef unsigned char boolean;
 /*----------------------------------------------------------------------------*/
 //ulong powers[128];
