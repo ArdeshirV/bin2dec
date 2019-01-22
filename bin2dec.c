@@ -1,5 +1,6 @@
-/* bin2dec.c: Binary to Decimal Conversion 4.0                                */
-/* Copyright (c) 2015 e-job@protonmail.com, Licensed under GPLv3+             */
+/* bin2dec.c: Binary to Decimal Convertor 4.0                                 */
+/* Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+        */
+/*----------------------------------------------------------------------------*/
 #include "bin2dec.h"
 /*----------------------------------------------------------------------------*/
 int main(int argc, char *argv[]) {
