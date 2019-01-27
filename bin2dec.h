@@ -9,7 +9,7 @@
 #define C_WARNING "\033[0;31m"/* Warning: Red                                 */
 #define C_NORMAL "\033[0m"    /* Normal Text: White                           */
 #define C_USER "\033[1;32m"   /* User Input: Bold Green                       */
-#define C_USER "\033[0;32m"   /* Reprinting User Input in Output: Green       */
+#define C_INPUT "\033[0;32m"   /* Reprinting User Input in Output: Green      */
 #define C_RESULT "\033[0;35m" /* Result and Output: Magenta                   */
 #define C_TITLE "\033[0;37m"  /* Title: Yellow                                */
 #define C_INFO "\033[1;37m"   /* Information of Title: Bold Yellow or Brown   */
