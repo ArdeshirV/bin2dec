@@ -53,7 +53,7 @@ ulong power2(ulong num) {
   return result;
 }
 /*----------------------------------------------------------------------------*/
-ulong Bin2Dec(char arr[], int len) {
+ulong Bin2Dec(const char arr[], const int len) {
   int i, value;
   ulong result = 0;
 
@@ -63,16 +63,15 @@ ulong Bin2Dec(char arr[], int len) {
   return result;
 }
 /*----------------------------------------------------------------------------*/
-boolean IsValidBinary(char arr[], int len) {
+boolean IsValidBinary(const char arr[], const int len) {
   int i;
   boolean result = TRUE;
 
   for(i = 0; i < len; i++) {
-    if(arr[i] == '\0') break; //printf("arr[%d] = \'%c\'\n", i, arr[i]);
-    if(arr[i] != '0' && arr[i] != '1') {
+    if(arr[i] == '\0')
+      break;  // printf("arr[%d] = \'%c\'\n", i, arr[i]);
+    else if(arr[i] != '0' && arr[i] != '1')
       result = FALSE;
-      break;
-    }
   }
   return result;
 }
