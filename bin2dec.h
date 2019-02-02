@@ -23,8 +23,8 @@ ulong power2(ulong num);
 ulong Bin2Dec(const char[], const int);
 boolean IsValidBinary(const char arr[], const int len);
 void PrintTitle(char[], const char[], const char[],
-                const char[], boolean color);
+                const char[], const boolean color);
 void PrintCopyright(char[], const char[], const char[],
-                const char[], boolean color);
+                const char[], const boolean color);
 /*----------------------------------------------------------------------------*/
 
