@@ -1,5 +1,5 @@
 # bin2dec
-bin2dec: Binary to Decimal Convertor<br/><br/>
+bin2dec is Binary to Decimal Convertor<br/><br/>
 
 This is two example of running code:<br/><br/>
 
