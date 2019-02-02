@@ -78,7 +78,7 @@ boolean IsValidBinary(const char arr[], const int len) {
 /*----------------------------------------------------------------------------*/
 void PrintTitle(char chrArrBuff[], const char AppName[],
                        const char AppDescription[], const char AppVersion[],
-                       boolean color) {
+                       const boolean color) {
     const char NoneColored[] = "%s - %s Version %s\n";
     const char Colored[] = "\033[1;33m%s\033[0;33m - %s "
                            "\033[1;33mVersion %s\033[0m\n";
@@ -88,7 +88,7 @@ void PrintTitle(char chrArrBuff[], const char AppName[],
 /*----------------------------------------------------------------------------*/
 void PrintCopyright(char chrArrBuff[], const char AppYear[],
                           const char AppCopyright[], const char AppLicense[],
-                          boolean color) {
+                          const boolean color) {
     const char NoneColored[] = "Copyright (c) %s %s, Licensed under %s\n\n";
     const char Colored[] = "\033[0;33mCopyright (c) \033[1;33m%s \033[1;34m%s"
                            "\033[0;33m, Licensed under \033[1;33m%s\033[0;33m"
