@@ -2,6 +2,7 @@
 /* Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+        */
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 /*----------------------------------------------------------------------------*/
 #define TRUE 1
 #define FALSE 0
