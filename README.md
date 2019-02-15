@@ -7,3 +7,4 @@ Run with command line argument:<br>
 
 Run without command line argument(The first green-binary-number below is user input):<br>
 <img alt="An Example of Running bin2dec without Command Line Argument" src="https://raw.githubusercontent.com/ArdeshirV/resources/master/bin2dec/bin2decRunWithoutCommandLine.png"><br><br>
+<p style="color: lime; text-align: center;">Coyright&copy; 2015-2019 e-job@protonmail.com, Licensed under GPL<sup>v3</sup><p/>
