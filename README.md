@@ -1,31 +1,5 @@
 <html>
   <head>
-    <style>
-      body {
-        margin: 5vh 5vw;
-        color: lime;
-        font-family: monospace;
-        background-color: black;
-      }
-      .copyright {
-        color: yellow;
-        text-align: center;
-      }
-      section {
-        margin-bottom: 4em;
-        margin-left: 2em;
-        margin-right: 2em;
-      }
-      img {
-        width: 100%;
-      }
-      h1 {
-        color: red;
-      }
-      pre {
-        color: gray;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -54,10 +28,8 @@
             <h4>Use output in terminal or Bash scripts:<h4>
             <pre>
               $ bo=$(./bin2dec 10000000)
-
               $ expr $bo - 28
               100
-
               $ echo print $bo - 28 | python -
               100
             </pre>
@@ -69,7 +41,6 @@
               $ ./bin2dec
               bin2dec - Binary to Decimal Convertor Version 4.0
               Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+
-
               Enter a binary number(use only 0 and 1): 10000000
               Binary(10000000) = Decimal(128)
               $ 
