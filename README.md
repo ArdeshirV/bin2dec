@@ -5,7 +5,6 @@
         color: lime;
         background-color: black;
       }
-      
       .myfooter {
         color: green;
         text-align: center;
