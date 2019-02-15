@@ -32,9 +32,11 @@ int main(int argc, char *argv[]) {
 
   if(IsValidBinary(chrArrBuff, len)) {
     ulong Result = Bin2Dec(chrArrBuff, len);
-    if(argc >= 2)
-      printf("\033[0;35m%lu\n\033[0m", Result);
-    else
+    if(argc >= 2) {
+      //printf("\033[0;35m%lu\n\033[0m", Result);
+      sprintf(chrArrBuff, "expr %lu", Result);
+      return system(chrArrBuff);
+    } else
       printf("\033[0mBinary(\033[0;32m%s\033[0m) = "
       "Decimal(\033[0;35m%lu\033[0;37m)\n\033[0m", chrArrBuff, Result);
   } else
