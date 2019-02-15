@@ -8,9 +8,6 @@
     <main>
       <article>
         <section>
-          <p><a href="https://github.com/ArdeshirV/bin2dec/" target="_blank" alt="Download bin2dec source code">Source code on my github</a></p>
-        </section>
-        <section>
           <h2>bin2dec is a binary to decimal convertor</h2>
           <p>bin2dec is a CLI tool to convert binary numbers to decimal numbers. I built this CLI app to solve and handle some problems in exceptional situations about developing Bash/Batch scripts when they need to know binary format.</p>
         </section>
