@@ -1,14 +1,26 @@
 <html>
   <head>
+    <style>
+      body {
+        color: lime;
+        background-color: black;
+      }
+      
+      .myfooter {
+        color: green;
+        text-align: center;
+        font-family: monospace;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>bin2dec</h1>
+      <h1>bin2dec - Binary to Decimal Convertor.</h1>
     </header>
     <main>
       <article>
         <section>
-          bin2dec is Binary to Decimal Convertor. I built this CLI app to solve and handle some problems in exceptional situations about developing Bash/Batch scripts when they need to know binary format.
+          I built this CLI app to solve and handle some problems in exceptional situations about developing Bash/Batch scripts when they need to know binary format.
         </section>
         <section>
 Below there are two example of running code in action:
@@ -26,7 +38,7 @@ Below there are two example of running code in action:
       </article>
     </main>
     <footer>
-      <p style="color: lime; text-align: center;">
+      <p class="myfooter">
         Coyright&copy; 2015-2019 <strong>e-job{at}protonmail.com</strong>, Licensed under GPL<sup>v3</sup>
       <p/>
     </footer>
