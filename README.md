@@ -1,5 +1,6 @@
 <html>
   <head>
+    <!--
     <style>
       body {
         color: lime;
@@ -11,10 +12,11 @@
         font-family: monospace;
       }
     </style>
+  -->
   </head>
   <body>
     <header>
-      <h1>bin2dec - Binary to Decimal Convertor.</h1>
+      <h1>Binary to Decimal Convertor</h1>
     </header>
     <main>
       <article>
