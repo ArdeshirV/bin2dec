@@ -1,18 +1,18 @@
 /* bin2dec.c: Binary to Decimal Convertor 4.0                                 */
-/* Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+        */
+/* Copyright (c) 2015-2019 ardeshirv@protonmail.com, Licensed under GPLv3+    */
 /*----------------------------------------------------------------------------*/
 #include "bin2dec.h"
 /*----------------------------------------------------------------------------*/
 int main(int argc, char *argv[]) {
   int len;
   char chrArrBuff[256];
-  const boolean blnColor = FALSE;
+  const boolean blnColor = TRUE;
   const char strAppName[] = "bin2dec";
   const char strAppYear[] = "2015-2019";
   const char strAppDescription[] = "Binary to Decimal Convertor";
   const char strVersion[] = "4.0";
   const char strLicense[] = "GPLv3+";
-  const char strCopyright[] = "e-job@protonmail.com";
+  const char strCopyright[] = "ardeshirv@protonmail.com";
 
   if(argc >= 2) {
     strcpy(chrArrBuff, argv[1]);
