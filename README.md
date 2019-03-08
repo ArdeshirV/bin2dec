@@ -19,7 +19,7 @@
               $ ./bin2dec 10000000
               128
             </pre>
-            <p>Simply it converts 10000000 from binary to '128' as a decimal number.</p>
+            <p>Simply it converts '10000000' from binary to '128' as a decimal number.</p>
           </section>
           <section>
             <h4>Use output in terminal or Bash scripts:<h4>
