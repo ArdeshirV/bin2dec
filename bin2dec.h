@@ -1,5 +1,5 @@
 /* bin2dec.h: Binary to Decimal Convertor 4.0                                 */
-/* Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+        */
+/* Copyright (c) 2015-2019 ardeshirv@protonmail.com, Licensed under GPLv3+    */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

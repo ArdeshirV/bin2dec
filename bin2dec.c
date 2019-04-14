@@ -21,7 +21,8 @@ int main(int argc, char *argv[]) {
     printf("%s", chrArrBuff);
     PrintCopyright(chrArrBuff, strAppYear, strCopyright, strLicense, blnColor);
     printf("%s", chrArrBuff);
-    printf("\033[0mEnter a binary number(use only 0 and 1): \033[1;32m");
+    printf("\033[0;36mEnter a binary number(use only \033[1;36m0\033[0;36m"
+           " and \033[1;36m1\033[0;36m): \033[1;32m");
     if(scanf("%s", chrArrBuff) < 0) {
       printf("\033[0;31mYou didn't enter a valid binary number.\n\033[0m");
       return -1;
