@@ -37,7 +37,7 @@
             <pre>
               $ ./bin2dec
               bin2dec - Binary to Decimal Convertor Version 4.0
-              Copyright (c) 2015-2019 e-job@protonmail.com, Licensed under GPLv3+
+              Copyright (c) 2015-2019 ardeshirv@protonmail.com, Licensed under GPLv3+
               Enter a binary number(use only 0 and 1): 10000000
               Binary(10000000) = Decimal(128)
               $ 
