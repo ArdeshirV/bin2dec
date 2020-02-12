@@ -47,12 +47,8 @@ int main(int argc, char *argv[]) {
   return 0;
 }
 /*----------------------------------------------------------------------------*/
-ulong power2(ulong num) {
-  ulong result = 1, i;
-
-  for(i = 0; i < num; i++)
-    result *= 2;
-  return result;
+inline ulong power2(ulong num) {
+  return 1 << num;
 }
 /*----------------------------------------------------------------------------*/
 ulong Bin2Dec(const char arr[], const int len) {
@@ -72,8 +68,10 @@ boolean IsValidBinary(const char arr[], const int len) {
   for(i = 0; i < len; i++) {
     if(arr[i] == '\0')
       break;  // printf("arr[%d] = \'%c\'\n", i, arr[i]);
-    else if(arr[i] != '0' && arr[i] != '1')
+    else if(arr[i] != '0' && arr[i] != '1') {
       result = FALSE;
+      break;
+    }
   }
   return result;
 }
